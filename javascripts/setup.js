@@ -16,5 +16,7 @@ function readyFn() {
     setToggleLabel($toggleBtn, $targetBtn);
   });
 };
-
+$('#overlay').click(function () {
+            alert('Note:By default we have Disabled Submit Button, \n Please fill complete form with approprite values to enable it.');
+        });
 $(readyFn);
